@@ -1,11 +1,36 @@
-div{
+.first{
 border-top: 5px dashed green;
 border-right: 10px dotted blue;
 border-left: 10px double black;
 border-bottom: 5px solid red;
-
-
-width: 400px;
-height: 400px;
+width: 250px;
+height: 250px;
 margin:auto;
+}
+
+.sales{
+text-align: center;
+margin: auto;
+}
+table, tr{
+background-color: rgb(255, 208, 208);
+border: 3px solid black;
+height: 20px;
+width: 500px;
+padding: 5px;
+margin: auto;
+}
+
+table{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+td{
+    border-style: none none solid groove;
+    
+}
+
+.sub, span{
+    background-color: rgb(163, 197, 255);
 }
